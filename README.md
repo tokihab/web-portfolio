@@ -3,7 +3,9 @@
 # 💻 Web Development Portfolio
 
 Frontend:    React.js | HTML5/CSS3
+
 Backend:     .NET | PHP
+
 Database:    MySQL
 
 + Responsive design
