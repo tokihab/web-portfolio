@@ -1,0 +1,60 @@
+
+.sidebar-container
+
+{
+
+  height: 70px;
+  width: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.15s;
+  cursor: pointer;
+
+}
+
+.sidebar-container:hover
+
+{
+
+  background-color: rgb(235, 235, 235);
+
+}
+
+.sidebar-icon
+
+{
+
+  width: 25px;
+  margin-bottom: 5px;
+
+}
+
+@media (min-width: 1150px)
+
+{
+
+  .sidebar-container
+
+  {
+
+    padding-left: 35px;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    width: 215px;
+    align-items: center;
+    column-gap: 10px;
+
+  }
+
+  .icon-name
+
+  {
+
+    font-size: 14px;
+    font-weight: 500;
+
+  }
+  
+}

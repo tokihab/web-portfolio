@@ -1,0 +1,239 @@
+
+.video-grid
+
+{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  column-gap: 15px;
+  row-gap: 10px;
+
+}
+
+.video-preview
+
+{
+
+  padding: 5px;
+  width: 100%;
+  height: 350px;
+
+}
+
+.thumbnail
+
+{
+
+  width: 100%;
+  margin-bottom: 12px;
+
+}
+
+.info-side
+
+{
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.info-grid
+
+{
+
+  display: flex;
+
+}
+
+.video-title
+
+{
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+
+.channel-name,
+.video-stats
+
+{
+
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+
+}
+
+.channel-side
+
+{
+
+  width: 50px;
+
+}
+
+.channel-pp
+
+{
+
+  width: 38px;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+
+.thumbnail-row
+
+{
+
+  position: relative;
+
+}
+
+.video-timer
+
+{
+
+  font-size: 12px;
+  position: absolute;
+  font-weight: 500;
+  bottom: 25px;
+  right: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  padding: 4px;
+
+}
+
+@media (max-width: 600px) 
+
+{
+  
+  .video-grid 
+  
+  {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+
+@media (min-width: 600px) 
+
+{
+  
+  .video-grid 
+  
+  {
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+}
+
+@media (min-width: 980px)
+
+{
+  
+  .video-grid
+
+  {
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+  
+}
+
+@media (min-width: 1300px) 
+
+{
+
+  .video-grid
+
+  {
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+  
+}
+
+.subscribers-container
+
+{
+
+  position: relative;
+
+}
+
+.subscribers-overlay
+
+{
+
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50px 1fr;
+  column-gap: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(87, 87, 87, 0.5);
+  z-index: 500;
+  border-radius: 10px;
+  position: absolute;
+  width: 240px;
+  height: 60px;
+  background-color: white;
+  bottom: -80px;
+  right: -260px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+
+}
+
+.subscribers-container:hover .subscribers-overlay
+
+{
+
+  opacity: 1;
+
+}
+
+.name-overlay
+
+{
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 1px;
+
+}
+
+.subscriber-overlay
+
+{
+
+  margin-bottom: 3px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+
+}
+
+.overlay-pp
+
+{
+
+  width: 50px;
+  border-radius: 25px;
+
+}
