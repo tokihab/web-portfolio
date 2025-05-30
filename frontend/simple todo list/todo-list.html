@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <link rel="shortcut icon" href="#" />
+
+    <link rel="stylesheet" href="todo-list.css">
+
+    <title>
+
+      To -Do- List.
+
+    </title>
+
+  </head>
+
+  <body>
+    
+    <p class="title">
+
+      Todo List
+
+    </p>
+
+    <div class="input-section">
+
+      <input type="text" placeholder="Task Name" class="js-txt-input" onkeydown=
+      
+      "
+      
+        enterpress(event);
+
+      ">
+
+      <input type="date" class="js-date-input">
+  
+      <button class="add-button" onclick=
+      
+      "
+      
+        addtodo();
+      
+      ">
+  
+        Add
+  
+      </button>
+
+    </div>
+
+    <div class="js-list list-section"></div>
+
+    <script src="todo-list.js"></script>
+
+  </body>
+
+</html>

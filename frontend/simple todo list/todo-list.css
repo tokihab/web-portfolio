@@ -1,0 +1,123 @@
+
+.title
+
+{
+
+  margin-left: 150px;
+  font-family: Arial;
+  font-weight: 700;
+
+}
+
+.input-section
+
+{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 425px;
+
+}
+
+.list-item
+
+{
+
+  font-family: arial;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  width: 415px;
+
+}
+
+.js-txt-input
+
+{
+
+  padding: 6px;
+  width: 155px;
+  
+}
+
+.js-date-input
+
+{
+
+  padding: 4px;
+  width: 150px;
+
+}
+
+.add-button
+
+{
+
+  padding: 7px;
+  padding-left: 21px;
+  padding-right: 20px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s;
+
+}
+
+.add-button:hover
+
+{
+
+  opacity: 0.8;
+
+}
+
+.add-button:active
+
+{
+
+  opacity: 0.5;
+
+}
+
+.delete-button
+
+{
+
+  padding: 7px;
+  padding-left: 13px;
+  padding-right: 12px;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s;
+
+}
+
+.delete-button:hover
+
+{
+
+  opacity: 0.8;
+
+}
+
+.delete-button:active
+
+{
+
+  opacity: 0.5;
+
+}
+
+.added-txt
+
+{
+
+  width: 90px;
+
+}
